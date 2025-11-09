@@ -277,4 +277,4 @@ console.log('Job created:', job.id);
 
 ## 🎬 **Demo**
 
-[PASTE YOUR DEMO VIDEO LINK HERE]
+Watch the demo video: [QueueCTL Demo](https://drive.google.com/file/d/1xwCCvm1KKzvn8uxXhONOX4ScK-IWP4iJ/view?usp=sharing)
