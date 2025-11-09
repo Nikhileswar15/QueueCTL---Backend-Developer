@@ -1,0 +1,44 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "A CLI-based background job queue system.",
+  "main": "dist/queuectl.js",
+  "bin": {
+    "queuectl": "dist/queuectl.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/queuectl.js",
+    "dev": "ts-node src/queuectl.ts",
+    "dashboard": "ts-node src/server.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "queue",
+    "background-jobs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "proper-lockfile": "^4.1.2",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.24",
+    "@types/proper-lockfile": "^4.1.4",
+    "@types/uuid": "^9.0.8",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
